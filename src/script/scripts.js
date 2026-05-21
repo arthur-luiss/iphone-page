@@ -1,4 +1,4 @@
-// ── SCROLL REVEAL ──
+// -- SCROLL REVEAL --
 const reveals = document.querySelectorAll(".reveal");
 const observer = new IntersectionObserver(
   (entries) => {
@@ -13,7 +13,7 @@ const observer = new IntersectionObserver(
 );
 reveals.forEach((el) => observer.observe(el));
 
-// ── FORM SUBMIT ──
+// -- FORM SUBMIT --
 function handleSubmit(e) {
   e.preventDefault();
   const btn = e.target.querySelector(".btn-submit-form");
